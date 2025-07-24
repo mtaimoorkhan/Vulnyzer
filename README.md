@@ -75,14 +75,10 @@ cd D:\PMD\pmd-bin-6.55.0\bin
 ./designer.bat
 ```
 
----
-
 ## 3. Web Application Overview
 
 - **Application Portal**: View code analysis results
 - **Admin Panel**: Run analyses, manage rules, view threat modeling
-
----
 
 ## 4. Using the Admin Panel
 
@@ -98,8 +94,7 @@ cd D:\PMD\pmd-bin-6.55.0\bin
 ### Trade Analysis:
 1. Select a project and rule type (syntactic or semantic)
 2. Results are visualized as STIX diagrams and rule views
-
----
+   
 
 ## 5. Framework Integrations
 
@@ -108,7 +103,6 @@ cd D:\PMD\pmd-bin-6.55.0\bin
 - PMD rule execution also controlled via API
 - STIX outputs and threat models visualized in the UI
 
----
 
 ## 6. TRADES Threat Modelling Integration
 
