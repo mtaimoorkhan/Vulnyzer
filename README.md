@@ -52,8 +52,6 @@ class Hello {
 }
 ```
 
----
-
 ## 2. PMD Installation (Syntactic Analysis Engine)
 
 ### Step 1: Install Requirements
