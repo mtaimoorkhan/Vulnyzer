@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<TRADES:Catalog xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TRADES="dsm.TRADES" name="Capec" id="Capec">
+  <threatOwner>
+ <externals name="CWE-335: Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG)" id="CWE-335" description="The product uses a Pseudo-Random Number Generator (PRNG) but does not correctly manage seeds." source="CWE" link="https://cwe.mitre.org/data/definitions/335.html" sourceID="CWE"/>
+ <externals name="CWE-369: Divide By Zero" id="CWE-369" description="The product divides a value by zero." source="CWE" link="https://cwe.mitre.org/data/definitions/369.html" sourceID="CWE"/>
+ <externals name="CWE-480: Use of Incorrect Operator" id="CWE-480" description="The product accidentally uses the wrong operator, which changes the logic in security-relevant ways." source="CWE" link="https://cwe.mitre.org/data/definitions/480.html" sourceID="CWE"/>
+ <externals name="CWE-681: Incorrect Conversion between Numeric Types" id="CWE-681" description="The product accidentally uses the wrong operator, which changes the logic in security-relevant ways." source="CWE" link="https://cwe.mitre.org/data/definitions/480.html" sourceID="CWE"/>
+ <externals name="XML Injection" id="Capec_250" description="An attacker utilizes crafted XML user-controllable input to probe, attack, and inject data into the XML database, using techniques similar to SQL injection. The user-controllable input can allow for unauthorized viewing of data, bypassing authentication or the front-end application for direct XML database access, and possibly altering database information.&#xA;" source="Capec" link="https://capec.mitre.org/data/definitions/250.html" sourceID="Capec"/>
+  </threatOwner>
+ </TRADES:Catalog>

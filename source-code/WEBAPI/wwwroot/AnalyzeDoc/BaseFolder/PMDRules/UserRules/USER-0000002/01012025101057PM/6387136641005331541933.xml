@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-1099: Inconsistent Naming Conventions for Identifiers" id="CWE-1099" ruleid="PRST-0000034" description="The product compares object references instead of the contents of the objects themselves, preventing it from detecting equivalent objects." source="CWE-1099" link="https://cwe.mitre.org/data/definitions/1099.html" sourceID="CWE-1099" ThreatType="CWE" />
+</threatOwner>

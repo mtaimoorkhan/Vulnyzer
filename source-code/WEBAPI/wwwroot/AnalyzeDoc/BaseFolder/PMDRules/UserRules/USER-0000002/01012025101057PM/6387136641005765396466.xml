@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-130: Improper Handling of Length Parameter Inconsistency" id="CWE-130" ruleid="PRST-0000010" description="The product parses a formatted message or structure, but it does not handle or incorrectly handles a length field that is inconsistent with the actual length of the associated data" source="CWE-130" link="https://cwe.mitre.org/data/definitions/130.html" sourceID="CWE-130" ThreatType="CWE" />
+</threatOwner>

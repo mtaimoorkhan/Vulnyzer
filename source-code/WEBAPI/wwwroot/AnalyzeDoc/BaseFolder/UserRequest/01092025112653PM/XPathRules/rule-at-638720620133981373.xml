@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<ruleset name="quickstart" xmlns="http://pmd.sourceforge.net/ruleset/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+  <description>Quickstart configuration of PMD. Includes the rules that are most likely to apply everywhere.</description>
+  <rule ref="category/java/errorprone.xml/DoNotCallGarbageCollectionExplicitly" />
+  <rule ref="category/java/errorprone.xml/AvoidCatchingThrowable" />
+  <rule ref="category/java/bestpractices.xml/AvoidUsingHardCodedIP" />
+  <rule ref="category/java/errorprone.xml/AssignmentInOperand" />
+  <rule ref="category/java/bestpractices.xml/UnusedPrivateMethod" />
+  <rule ref="category/java/codestyle.xml/EmptyControlStatement" />
+  <rule ref="category/java/bestpractices.xml/ForLoopCanBeForeach" />
+  <rule ref="category/java/errorprone.xml/UnconditionalIfStatement" />
+  <rule ref="category/java/multithreading.xml/DoubleCheckedLocking" />
+  <rule ref="category/java/design.xml/LogicInversion" />
+  <rule ref="category/java/bestpractices.xml/SwitchStmtsShouldHaveDefault" />
+  <rule ref="category/java/bestpractices.xml/UseCollectionIsEmpty" />
+  <rule ref="category/java/errorprone.xml/NonStaticInitializer" />
+  <rule ref="category/java/errorprone.xml/CompareObjectsWithEquals" />
+  <rule ref="category/java/errorprone.xml/OverrideBothEqualsAndHashcode" />
+  <rule ref="category/java/errorprone.xml/EqualsNull" />
+  <rule ref="category/java/multithreading.xml/NonThreadSafeSingleton" />
+  <rule ref="category/java/codestyle.xml/ForLoopShouldBeWhileLoop" />
+  <rule ref="category/java/multithreading.xml/DontCallThreadRun" />
+  <rule ref="category/java/errorprone.xml/ProperCloneImplementation" />
+  <rule ref="category/java/design.xml/FinalFieldCouldBeStatic" />
+</ruleset>

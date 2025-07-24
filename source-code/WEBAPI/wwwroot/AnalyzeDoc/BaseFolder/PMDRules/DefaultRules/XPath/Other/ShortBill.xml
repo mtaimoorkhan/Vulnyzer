@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+ <rule>
+    <DataKey>ShortBill</DataKey>
+    <ClassName>DoNotUseBillBadCode</ClassName>
+	<GoodCode>
+	 public class DoNotUseBillGoodCode {
+    public void SampleMethod() {
+        short StudentId; // LocalVariableDeclaration
+                               }
+                              } 
+	</GoodCode>
+	<BadCode> 
+	  public class DoNotUseBillBadCode {
+    public void SampleMethod() {
+        short bill; // LocalVariableDeclaration
+                               }
+                              } 
+	</BadCode>
+	<DataName>Simple PMD Variable(Short=bill) Declaration Rule</DataName>
+	<DataValue>{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--8ac90ff3-ecf8-4835-95b8-6aea6a623df5",
+    "created": "2015-05-07T14:22:14.760Z",
+    "modified": "2015-05-07T14:22:14.760Z",
+    "pmd_name": "Variable_Name_Check",
+    "pmd_rule_type": "instance_variable_name_and_type",
+    "pmd_priority": "3" ,
+    "pmd_message": "Invalid Variable Declaration" ,
+    "pmd_description": "Invalid Variable Declaration" ,
+    "pmd_variable_name": "bill",
+    "pmd_variable_data_type": "short" 
+{%Addition%}
+    
+}
+	</DataValue>
+	<XpathRule>//VariableId[@Name = "bill"]</XpathRule>
+	<XpathRuleToShow>//VariableId[@Name = "bill"]</XpathRuleToShow>
+	<Description>Invalid Variable Declaration Do not Use bill as variable</Description>
+	<Message>Invalid Variable Declaration</Message>
+	<Name>Invalid Variable Declaration</Name>
+	<Priority>1</Priority>
+  </rule>
+ 
+ 
+ 

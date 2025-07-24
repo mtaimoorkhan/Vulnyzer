@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+ <rule>
+    <DataKey>CWE-681</DataKey>
+    <ClassName>ConversionBetweenNumericTypesBad</ClassName>
+	<GoodCode>
+	 public class ConversionBetweenNumericTypesGood
+{
+     int studentid = 55;
+  public int readdata() 
+{
+ int amount = 10;
+ string result = "ERROR";
+ if (result == "ERROR"){amount = 0;}
+
+ return 0;
+}     
+    
+}
+	</GoodCode>
+	<BadCode> 
+	 public class ConversionBetweenNumericTypesBad
+{
+     int floatToInt = (int) 33457.8;
+  public int readdata() 
+{
+ int amount = 0;
+ string result = "ERROR";
+ if (result == "ERROR"){amount = -1;}
+
+ return -1;
+}     
+    
+}
+	</BadCode>
+	<DataName>CWE-681 Incorrect Conversion between Numeric Types</DataName>
+	<DataValue> 
+	  {
+                    "type": "attack-pattern",
+                    "spec_version": "2.3",
+                    "id": "attack-pattern--8ac90ff3-ecf8-4835-95b8-6aea6a623df9",
+                    "created": "2023-03-27T14:22:14.760Z",
+                    "modified": "2023-03-27T14:22:14.760Z",
+                    "name": "Incorrect Conversion between Numeric Types",
+                    "description": "Incorrect Conversion between Numeric Types will occurr.",
+                    {%Addition%}
+                    "external_references": [
+                        {
+                            "source_name": "CWE",
+                            "url": "https://cwe.mitre.org/data/definitions/681.html",
+                            "external_id": "CWE-681",
+                            "message": "Incorrect Conversion between Numeric Types will occurr",
+                            "priority": 1
+                        }
+                    ]
+                }
+	</DataValue>
+	<XpathRule>.//CastExpression[((.//PrimitiveType[@Kind='int'] and /*[1][@Image]))]</XpathRule>
+	<XpathRuleToShow>.//CastExpression[((.//PrimitiveType[@Kind='int'] and /*[1][@Image]))]</XpathRuleToShow>
+	<Description>Incorrect Conversion between Numeric Types</Description>
+	<Message>Incorrect Conversion between Numeric Types</Message>
+	<Name>CWE-681 Incorrect Conversion between Numeric Types</Name>
+	<Priority>1</Priority>
+  </rule>
+ 
+ 
+ 

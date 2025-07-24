@@ -1,0 +1,14 @@
+ public class ConversionBetweenNumericTypesBad
+{
+     int floatToInt = (int) 33457.8;
+  public int readdata() 
+{
+ int amount = 0;
+ string result = "ERROR";
+ if (result == "ERROR"){amount = -1;}
+
+ return -1;
+}     
+    
+}
+ 

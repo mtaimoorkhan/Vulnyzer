@@ -1,0 +1,556 @@
+<?xml version="1.0"?>
+<catalog>
+    <rule ref="category/java/bestpractices.xml/AvoidMessageDigestField">
+	 <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/bestpractices.xml/AvoidStringBufferField">
+	 <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/bestpractices.xml/AvoidUsingHardCodedIP">
+	 <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    
+	 <rule ref="category/java/bestpractices.xml/CheckResultSet">
+	  <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/bestpractices.xml/ConstantsInInterface">
+	  <Folder>Java</Folder>
+	  <Default>1</Default>
+	</rule>
+    <rule ref="category/java/bestpractices.xml/DefaultLabelNotLastInSwitchStmt">
+	  <Folder>Java</Folder>
+	  <Default>1</Default>
+	</rule>
+    <rule ref="category/java/bestpractices.xml/DoubleBraceInitialization">
+	  <Folder>Java</Folder>
+	  <Default>1</Default>
+	</rule>
+    <rule ref="category/java/bestpractices.xml/ForLoopCanBeForeach">
+	 <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+   
+    <rule ref="category/java/bestpractices.xml/GuardLogStatement">
+	 <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+ 
+    <rule ref="category/java/bestpractices.xml/LiteralsFirstInComparisons">
+	  <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/bestpractices.xml/LooseCoupling">
+	  <Folder>Java</Folder>
+	  <Default>1</Default>
+	</rule>
+   
+    <rule ref="category/java/bestpractices.xml/MissingOverride">
+	  <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/bestpractices.xml/OneDeclarationPerLine">
+	  <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/bestpractices.xml/PrimitiveWrapperInstantiation">
+	  <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/bestpractices.xml/PreserveStackTrace">
+	  <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+  
+    <rule ref="category/java/bestpractices.xml/SimplifiableTestAssertion">  
+	 <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/bestpractices.xml/SwitchStmtsShouldHaveDefault">
+	  <Folder>Java</Folder>
+	  <Default>1</Default>
+	</rule>
+   
+    <rule ref="category/java/bestpractices.xml/UnusedFormalParameter">
+	  <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/bestpractices.xml/UnusedLocalVariable">
+	  <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/bestpractices.xml/UnusedPrivateField">
+	  <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/bestpractices.xml/UnusedPrivateMethod">
+	  <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/bestpractices.xml/UseCollectionIsEmpty">
+	  <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+  
+    <rule ref="category/java/bestpractices.xml/UseStandardCharsets">
+	  <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+  
+
+
+    <rule ref="category/java/codestyle.xml/ClassNamingConventions">
+	  <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+ 
+    <rule ref="category/java/codestyle.xml/FormalParameterNamingConventions">
+	  <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/codestyle.xml/GenericsNaming">  <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/codestyle.xml/LambdaCanBeMethodReference">  <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    
+    <rule ref="category/java/codestyle.xml/LocalVariableNamingConventions">
+	  <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+   
+    <rule ref="category/java/codestyle.xml/MethodNamingConventions">
+	  <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/codestyle.xml/PackageCase">  
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    
+    <rule ref="category/java/codestyle.xml/AvoidDollarSigns">  
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/codestyle.xml/AvoidProtectedFieldInFinalClass">  <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/codestyle.xml/AvoidProtectedMethodInFinalClassNotExtending">
+	  <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+  
+    <rule ref="category/java/codestyle.xml/ControlStatementBraces">
+	  <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+   
+    <rule ref="category/java/codestyle.xml/ExtendsObject">
+	  <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+  
+    <rule ref="category/java/codestyle.xml/FinalParameterInAbstractMethod">
+	  <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/codestyle.xml/ForLoopShouldBeWhileLoop">  
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    
+	<rule ref="category/java/codestyle.xml/IdenticalCatchBranches">  
+	<Folder>Java</Folder>
+	<Default>1</Default>
+	</rule>
+ 
+    <rule ref="category/java/codestyle.xml/NoPackage">  
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+   
+    <rule ref="category/java/codestyle.xml/UnnecessaryAnnotationValueElement">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+   
+    <rule ref="category/java/codestyle.xml/UnnecessaryConstructor">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+	
+    <rule ref="category/java/codestyle.xml/UnnecessaryFullyQualifiedName">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/codestyle.xml/UnnecessaryImport">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/codestyle.xml/UnnecessaryLocalBeforeReturn">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/codestyle.xml/UnnecessaryModifier"><Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/codestyle.xml/UnnecessaryReturn">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+   
+    <rule ref="category/java/codestyle.xml/UselessParentheses">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/codestyle.xml/UselessQualifiedThis">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+
+
+    <rule ref="category/java/design.xml/AbstractClassWithoutAnyMethod">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+   
+    <rule ref="category/java/design.xml/ClassWithOnlyPrivateConstructorsShouldBeFinal">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+   
+    <rule ref="category/java/design.xml/DoNotExtendJavaLangError">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+  
+    <rule ref="category/java/design.xml/FinalFieldCouldBeStatic">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+  
+    <rule ref="category/java/design.xml/LogicInversion">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+   
+    <rule ref="category/java/design.xml/SimplifiedTernary">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+  
+    <rule ref="category/java/design.xml/SimplifyBooleanReturns">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/design.xml/SimplifyConditional">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/design.xml/SingularField">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+   
+    <rule ref="category/java/design.xml/UselessOverridingMethod">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+ 
+    <rule ref="category/java/design.xml/UseUtilityClass">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+
+
+  
+    <rule ref="category/java/documentation.xml/UncommentedEmptyConstructor">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    
+	<rule ref="category/java/documentation.xml/UncommentedEmptyMethodBody">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+
+
+
+    <rule ref="category/java/errorprone.xml/AssignmentInOperand">
+      <Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+		
+  
+    <rule ref="category/java/errorprone.xml/AssignmentToNonFinalStatic">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/errorprone.xml/AvoidAccessibilityAlteration">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+   
+    <rule ref="category/java/errorprone.xml/AvoidBranchingStatementAsLastInLoop">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+ 
+    <rule ref="category/java/errorprone.xml/AvoidCatchingThrowable">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/errorprone.xml/AvoidDecimalLiteralsInBigDecimalConstructor">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+ 
+    <rule ref="category/java/errorprone.xml/AvoidInstanceofChecksInCatchClause">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+  
+    <rule ref="category/java/errorprone.xml/AvoidMultipleUnaryOperators">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+	
+    <rule ref="category/java/errorprone.xml/AvoidUsingOctalValues">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+
+    <rule ref="category/java/errorprone.xml/BrokenNullCheck">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+ 
+    <rule ref="category/java/errorprone.xml/CheckSkipResult">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+	
+    <rule ref="category/java/errorprone.xml/ClassCastExceptionWithToArray">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/errorprone.xml/CloneMethodMustBePublic">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+	
+	
+    <rule ref="category/java/errorprone.xml/CloneMethodMustImplementCloneable">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/errorprone.xml/CloneMethodReturnTypeMustMatchClassName">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+  
+    <rule ref="category/java/errorprone.xml/CloseResource">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+
+    <rule ref="category/java/errorprone.xml/CompareObjectsWithEquals">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/errorprone.xml/ComparisonWithNaN">
+	<Folder>Java</Folder>
+	<Default>1</Default>
+	</rule>
+   
+    <rule ref="category/java/errorprone.xml/DoNotCallGarbageCollectionExplicitly">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+  
+    <rule ref="category/java/errorprone.xml/DoNotExtendJavaLangThrowable">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+  
+    <rule ref="category/java/errorprone.xml/DontUseFloatTypeForLoopIndices">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/errorprone.xml/EqualsNull">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+   
+    <rule ref="category/java/errorprone.xml/IdempotentOperations">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/errorprone.xml/ImplicitSwitchFallThrough">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/errorprone.xml/InstantiationToGetClass">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    
+    <rule ref="category/java/errorprone.xml/JumbledIncrementer">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+   
+    <rule ref="category/java/errorprone.xml/MisplacedNullCheck">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+   
+    <rule ref="category/java/errorprone.xml/MissingStaticMethodInNonInstantiatableClass">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    
+    <rule ref="category/java/errorprone.xml/NonCaseLabelInSwitchStatement">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/errorprone.xml/NonStaticInitializer">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+  
+    <rule ref="category/java/errorprone.xml/OverrideBothEqualsAndHashcode">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/errorprone.xml/ProperCloneImplementation">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/errorprone.xml/ProperLogger">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/errorprone.xml/ReturnEmptyCollectionRatherThanNull">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/errorprone.xml/ReturnFromFinallyBlock">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+   
+    <rule ref="category/java/errorprone.xml/SingleMethodSingleton">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/errorprone.xml/SingletonClassReturningNewInstance">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+   
+    <rule ref="category/java/errorprone.xml/SuspiciousEqualsMethodName">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/errorprone.xml/SuspiciousHashcodeMethodName">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/errorprone.xml/SuspiciousOctalEscape">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+   
+    <rule ref="category/java/errorprone.xml/UnconditionalIfStatement">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+   
+    <rule ref="category/java/errorprone.xml/UnnecessaryConversionTemporary">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/errorprone.xml/UnusedNullCheckInEquals">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+ 
+    <rule ref="category/java/errorprone.xml/UseEqualsToCompareStrings">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/errorprone.xml/UselessOperationOnImmutable">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/errorprone.xml/UseLocaleWithCaseConversions">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+  
+
+    <!-- Empty rules -->
+    <rule ref="category/java/codestyle.xml/EmptyControlStatement">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/codestyle.xml/UnnecessarySemicolon">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/errorprone.xml/EmptyCatchBlock">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/errorprone.xml/EmptyFinalizer">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+
+
+  
+    <rule ref="category/java/multithreading.xml/AvoidThreadGroup">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/multithreading.xml/AvoidUsingVolatile">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/multithreading.xml/DontCallThreadRun">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/multithreading.xml/DoubleCheckedLocking">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/multithreading.xml/NonThreadSafeSingleton">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/multithreading.xml/UnsynchronizedStaticFormatter">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/multithreading.xml/UseNotifyAllInsteadOfNotify">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/performance.xml/BigIntegerInstantiation">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+    <rule ref="category/java/performance.xml/OptimizableToArrayCall">
+	<Folder>Java</Folder>
+	 <Default>1</Default>
+	</rule>
+
+
+  
+</catalog>

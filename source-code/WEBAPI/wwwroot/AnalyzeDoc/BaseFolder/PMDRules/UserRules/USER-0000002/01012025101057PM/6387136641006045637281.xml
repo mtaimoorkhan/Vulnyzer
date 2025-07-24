@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-500: Public Static Field Not Marked Final" id="CWE-500" ruleid="PRST-0000001" description="An object contains a public static field that is not marked final, which might allow it to be modified in unexpected ways." source="CWE-500" link="https://cwe.mitre.org/data/definitions/500.html" sourceID="CWE-500" ThreatType="CWE" />
+</threatOwner>

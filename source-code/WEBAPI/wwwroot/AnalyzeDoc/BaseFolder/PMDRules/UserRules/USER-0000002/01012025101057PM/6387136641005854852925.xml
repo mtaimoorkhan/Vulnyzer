@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-581: Object Model Violation: Just One of Equals and Hashcode Defined" id="CWE-581" ruleid="PRST-0000007" description="The product does not maintain equal hashcodes for equal objects" source="CWE-581" link="https://cwe.mitre.org/data/definitions/581.html" sourceID="CWE-581" ThreatType="CWE" />
+</threatOwner>

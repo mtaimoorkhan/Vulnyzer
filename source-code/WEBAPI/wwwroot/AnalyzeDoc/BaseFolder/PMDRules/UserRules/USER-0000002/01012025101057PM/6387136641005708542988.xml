@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-480: Use of Incorrect Operator" id="CWE-480" ruleid="PRST-0000012" description="The product accidentally uses the wrong operator, which changes the logic in security-relevant ways." source="CWE-480" link="https://cwe.mitre.org/data/definitions/480.html" sourceID="CWE-480" ThreatType="CWE" />
+</threatOwner>

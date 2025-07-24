@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="Buffer Overflow via Environment Variables" id="Capec_10" description="This attack pattern involves causing a buffer overflow through manipulation of environment variables. Once the attacker finds that they can modify an environment variable, they may try to overflow associated buffers. This attack leverages implicit trust often placed in environment variables.&#xA;" source="Capec" link="https://capec.mitre.org/data/definitions/10.html" sourceID="Capec" />
+</threatOwner>

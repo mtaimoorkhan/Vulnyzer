@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-571: Expression is Always True" id="CWE-571" ruleid="PRST-0000014" description="The product contains an expression that will always evaluate to true." source="CWE-571" link="https://cwe.mitre.org/data/definitions/571.html" sourceID="CWE-571" ThreatType="CWE" />
+</threatOwner>

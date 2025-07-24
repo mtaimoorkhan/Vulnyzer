@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-835: Loop with Unreachable Exit Condition ('Infinite Loop')" id="CWE-835" ruleid="PRST-0000004" description="" source="CWE-835" link="https://cwe.mitre.org/data/definitions/835.html" sourceID="CWE-835" ThreatType="CWE" />
+</threatOwner>

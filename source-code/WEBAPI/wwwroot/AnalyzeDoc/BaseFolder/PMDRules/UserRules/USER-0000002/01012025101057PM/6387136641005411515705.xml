@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-486: Comparison of Classes by Name" id="CWE-486" ruleid="PRST-0000026" description="The product compares classes by name, which can cause it to use the wrong class when multiple classes can have the same name." source="CWE-486" link="https://cwe.mitre.org/data/definitions/486.html" sourceID="CWE-486" ThreatType="CWE" />
+</threatOwner>

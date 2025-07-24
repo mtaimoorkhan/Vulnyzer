@@ -1,0 +1,5 @@
+------------------Violation Message --------------------------
+E:\tfsdev15\PMD Source\source\PDMRuleMaker\bin\Debug\net6.0-windows\BaseFolder\SourceFiles\javaviolation\Violation.java:13:	Rule_CWE-335:	Incorrect Long Integer was detected
+E:\tfsdev15\PMD Source\source\PDMRuleMaker\bin\Debug\net6.0-windows\BaseFolder\SourceFiles\javaviolation\Violation.java:14:	Rule_CWE-335:	Incorrect Long Integer was detected
+
+------------------No Violation Message --------------------------

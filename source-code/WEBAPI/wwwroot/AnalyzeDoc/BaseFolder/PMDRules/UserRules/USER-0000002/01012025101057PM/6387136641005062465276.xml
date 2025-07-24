@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-369: Divide By Zero" id="CWE-369" ruleid="PRST-0000048" description="The product divides a value by zero." source="CWE-369" link="https://cwe.mitre.org/data/definitions/369.html" sourceID="CWE-369" ThreatType="CWE" />
+</threatOwner>

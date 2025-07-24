@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-597: Use of Wrong Operator in String Comparison" id="CWE-597" ruleid="PRST-0000006" description="The product uses the wrong operator when comparing a string, such as using &quot;==&quot; when the .equals() method should be used instead." source="CWE-597" link="https://cwe.mitre.org/data/definitions/597.html" sourceID="CWE-597" ThreatType="CWE" />
+</threatOwner>

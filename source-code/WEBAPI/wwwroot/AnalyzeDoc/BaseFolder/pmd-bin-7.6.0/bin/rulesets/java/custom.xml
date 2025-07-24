@@ -1,0 +1,18 @@
+<rule name="DontCallBossShort"
+      language="java"
+      message="Boss wants to talk to you."
+      class="net.sourceforge.pmd.lang.rule.xpath.XPathRule">
+    <description>
+        TODO
+    </description>
+    <priority>3</priority>
+    <properties>
+        <property name="xpath">
+            <value>
+
+//VariableId[@Name = "bill"][../../Type[@TypeImage="short"]]
+
+            </value>
+        </property>
+    </properties>
+</rule>

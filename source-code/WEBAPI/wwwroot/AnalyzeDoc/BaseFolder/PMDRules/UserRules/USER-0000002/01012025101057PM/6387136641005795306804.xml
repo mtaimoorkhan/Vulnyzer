@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-665: Improper Initialization" id="CWE-665" ruleid="PRST-0000009" description="The product does not initialize or incorrectly initializes a resource, which might leave the resource in an unexpected state when it is accessed or used" source="CWE-665" link="https://cwe.mitre.org/data/definitions/665.html" sourceID="CWE-665" ThreatType="CWE" />
+</threatOwner>

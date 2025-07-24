@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-586: Explicit Call to Finalize() (4.16)" id="CWE-586" ruleid="PRST-0000046" description="The product makes an explicit call to the finalize() method from outside the finalizer." source="CWE-586" link="https://cwe.mitre.org/data/definitions/586.html" sourceID="CWE-586" ThreatType="CWE" />
+</threatOwner>

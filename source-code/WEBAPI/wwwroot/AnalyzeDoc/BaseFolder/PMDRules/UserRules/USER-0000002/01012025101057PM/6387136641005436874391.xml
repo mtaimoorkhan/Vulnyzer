@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-772: Missing Release of Resource after Effective Lifetime" id="CWE-772" ruleid="PRST-0000025" description="The product does not release a resource after its effective lifetime has ended, i.e., after the resource is no longer needed." source="CWE-772" link="https://cwe.mitre.org/data/definitions/772" sourceID="CWE-772" ThreatType="CWE" />
+</threatOwner>

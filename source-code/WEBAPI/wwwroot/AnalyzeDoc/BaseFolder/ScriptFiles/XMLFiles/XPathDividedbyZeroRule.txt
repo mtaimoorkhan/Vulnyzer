@@ -1,0 +1,40 @@
+﻿<?xml version="1.0"?>
+<ruleset name="rthfpdm_name" xmlns="http://pmd.sourceforge.net/ruleset/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+  <description>
+              IDivide By Zero.
+  </description>
+  <rule name="Rule_CWE-369" language="java" message="Divide By Zero" class="net.sourceforge.pmd.lang.rule.XPathRule">
+    <priority>1</priority>
+    <example><![CDATA[
+       public int computeAverageResponseTime (int totalTime, int numRequests) {
+        int result= totalTime / numRequests;
+        return result;
+        }
+        public double divide(double x, double y){
+            return x/y;
+        }
+        public int Division(int numberVal, int ZeroVal){
+            return (numberVal / ZeroVal);
+        }
+    ]]></example>
+    <example><![CDATA[
+         public int computeAverageResponseTime (int totalTime, int numRequests) {
+        int result= totalTime / numRequests;
+        return result;
+        }
+        public double divide(double x, double y){
+            return x/y;
+        }
+        public int Division(int numberVal, int ZeroVal){
+            return (numberVal / ZeroVal);
+        }
+    ]]></example>
+    <properties>
+      <property name="xpath">
+        <value>
+                         {%RuleExpression%}
+                    </value>
+      </property>
+    </properties>
+  </rule>
+</ruleset>

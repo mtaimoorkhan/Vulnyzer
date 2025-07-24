@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<catalog>
+    <rule ref="CWE-335">
+	 <Folder>CWE</Folder>
+	  <Default>1</Default>
+   	</rule>
+	<rule ref="CWE-369">
+	 <Folder>CWE</Folder>
+	  <Default>1</Default>
+   	</rule>
+    <rule ref="CWE-480">
+	 <Folder>CWE</Folder>
+	  <Default>1</Default>
+   	</rule>
+    <rule ref="CWE-681">
+	 <Folder>CWE</Folder>
+	  <Default>1</Default>
+   	</rule>
+    <rule ref="CAPEC-250">
+	 <Folder>Capec</Folder>
+	  <Default>1</Default>
+   	</rule>
+    <rule ref="ShortBill">
+	 <Folder>Other</Folder>
+	  <Default>1</Default>
+   	</rule>
+</catalog>

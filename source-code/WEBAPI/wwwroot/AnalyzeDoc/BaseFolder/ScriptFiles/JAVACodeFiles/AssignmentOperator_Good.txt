@@ -1,0 +1,14 @@
+﻿import java.util.*;
+import java.security.*;
+
+class AssignmentOperator_Good { 
+    bool isValid(int value) {
+        int x=10;
+        if (value==100) {
+        	System.out.println("\n Valid Assignment Operator in If Statement");
+        }
+        while (a == b) {
+            System.out.println("\n Valid Assignment Operator in While Statement");
+      }
+    }
+}

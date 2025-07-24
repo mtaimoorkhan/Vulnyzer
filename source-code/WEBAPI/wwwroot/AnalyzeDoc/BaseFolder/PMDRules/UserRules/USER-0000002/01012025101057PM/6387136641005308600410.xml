@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-482: Comparing instead of Assigning" id="CWE-482" ruleid="PRST-0000039" description="The code uses an operator for comparison when the intention was to perform an assignment." source="CWE-482" link="https://cwe.mitre.org/data/definitions/482.html" sourceID="CWE-482" ThreatType="CWE" />
+</threatOwner>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+   <rule>
+    <DataKey>CWE-369</DataKey>
+    <ClassName>ComputeNumber</ClassName>
+	<GoodCode>
+	import java.util.*;
+import java.security.*;
+
+class ComputeNumber { 
+    
+    public int computeAverageResponseTime (int totalTime, int numRequests) {
+        int result= totalTime / numRequests;
+        return result;
+    }
+    double divide(double x, double y){
+        return x/y;
+    }
+    int Division(int numberVal, int ZeroVal){
+        return (numberVal / ZeroVal);
+    }
+}
+
+	
+	</GoodCode>
+	<BadCode> 
+	import java.util.*;
+import java.security.*;
+
+class ComputeNumber {     
+    string strValue="45/0";
+    public int computeAverageResponseTime (int totalTime, int numRequests) {
+        int result= totalTime / numRequests;
+        return result;
+    }
+    double divide(){
+        return 50/0;
+    }
+    int Division(int numberVal, int ZeroVal){
+        return (numberVal / ZeroVal);
+    }
+}
+
+	</BadCode>
+	<DataName>CWE-369 Divide By Zero</DataName>
+	<DataValue> 
+	 {
+                      "type": "attack-pattern",
+                    "spec_version": "2.3",
+                    "id": "attack-pattern--8ac90ff3-ecf8-4835-95b8-6aea6a623df7",
+                    "created": "2023-03-27T14:22:14.760Z",
+                    "modified": "2023-03-27T14:22:14.760Z",
+                    "name": "Divide By Zero",
+                    "description": "Divide By Zero will occurr.",
+                    {%Addition%}
+                    "external_references": [
+                        {
+                            "source_name": "CWE",
+                            "url": "https://cwe.mitre.org/data/definitions/369.html",
+                            "external_id": "CWE-369",
+                            "message": "Divide By Zero will occurr",
+                            "priority": 1
+                        }
+                    ]
+     }
+	</DataValue>
+	<XpathRule>//InfixExpression[@Operator='/']/*[2][@Image and not(number(@Image))]</XpathRule>
+	<XpathRuleToShow>//InfixExpression[@Operator='/']/*[2][@Image and not(number(@Image))]</XpathRuleToShow>
+	<Description>Divide By Zero</Description>
+	<Message>Divide By Zero</Message>
+	<Name>CWE-369 Divide By Zero</Name>
+	<Priority>1</Priority>
+  </rule>
+ 
+ 
+ 

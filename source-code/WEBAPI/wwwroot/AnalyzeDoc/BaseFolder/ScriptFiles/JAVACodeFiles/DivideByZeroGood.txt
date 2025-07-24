@@ -1,0 +1,16 @@
+﻿import java.util.*;
+import java.security.*;
+
+class ComputeNumber { 
+    
+    public int computeAverageResponseTime (int totalTime, int numRequests) {
+        int result= totalTime / numRequests;
+        return result;
+    }
+    double divide(double x, double y){
+        return x/y;
+    }
+    int Division(int numberVal, int ZeroVal){
+        return (numberVal / ZeroVal);
+    }
+}

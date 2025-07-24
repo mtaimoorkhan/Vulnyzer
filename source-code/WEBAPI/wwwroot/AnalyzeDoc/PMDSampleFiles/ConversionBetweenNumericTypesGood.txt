@@ -1,0 +1,14 @@
+ public class ConversionBetweenNumericTypesGood
+{
+     int studentid = 55;
+  public int readdata() 
+{
+ int amount = 10;
+ string result = "ERROR";
+ if (result == "ERROR"){amount = 0;}
+
+ return 0;
+}     
+    
+}
+ 

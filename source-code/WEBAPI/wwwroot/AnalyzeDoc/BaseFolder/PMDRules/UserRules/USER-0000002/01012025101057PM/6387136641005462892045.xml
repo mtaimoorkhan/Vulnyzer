@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-483: Incorrect Block Delimitation" id="CWE-483" ruleid="PRST-0000024" description="The code does not explicitly delimit a block that is intended to contain 2 or more statements, creating a logic error." source="CWE-483" link="https://cwe.mitre.org/data/definitions/483.html" sourceID="CWE-483" ThreatType="CWE" />
+</threatOwner>

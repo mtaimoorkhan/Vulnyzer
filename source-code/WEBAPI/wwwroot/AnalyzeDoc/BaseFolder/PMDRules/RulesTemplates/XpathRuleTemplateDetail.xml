@@ -1,0 +1,14 @@
+<rule name="<RuleName>"
+      language="java"
+      message="<RuleMessage>"
+      class="net.sourceforge.pmd.lang.rule.xpath.XPathRule">
+    <description><DescriptionTemplate></description>
+    <priority><PriorityTemplate></priority>
+    <properties>
+        <property name="xpath">
+            <value>
+  <XpathRuleTemplate>
+            </value>
+        </property>
+    </properties>
+</rule>

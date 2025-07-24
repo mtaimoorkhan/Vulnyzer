@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-369: Divide By Zero" id="CWE-369" description="The product divides a value by zero." source="CWE" link="https://cwe.mitre.org/data/definitions/369.html" sourceID="CWE" ThreatType="Capec" />
+</threatOwner>

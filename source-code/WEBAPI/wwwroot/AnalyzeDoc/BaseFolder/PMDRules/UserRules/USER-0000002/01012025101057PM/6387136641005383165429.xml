@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-561: Dead Code" id="CWE-561" ruleid="PRST-0000032" description="The product contains dead code, which can never be executed." source="CWE-561" link="https://cwe.mitre.org/data/definitions/561.html" sourceID="CWE-561" ThreatType="CWE" />
+</threatOwner>

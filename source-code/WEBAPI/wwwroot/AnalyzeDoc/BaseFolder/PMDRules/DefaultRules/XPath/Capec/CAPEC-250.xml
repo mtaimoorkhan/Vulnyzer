@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <rule>
+    <DataKey>CAPEC-250</DataKey>
+    <ClassName>XMLInjection</ClassName>
+	<GoodCode> 
+	 public class XMLInjection {
+    int int1 = 10 ;
+    public void doSomething(int c) {
+         string NonXMLString="v2";
+         int int2 = 15 ;
+                                   }
+                           } 
+	
+	</GoodCode>
+	<BadCode> 
+	public class XMLInjection {
+  String ipAddress = new String("172.16.254.1");
+    string XMLString="&lt;";
+	string XMLStringK="&lt;?xml version=&apos;1.0&apos;?&gt;&lt;DataKey&gt;CAPEC&amp;-250&lt;/DataKey&gt;&lt;ClassName&gt;XMLInjection&lt;/ClassName&gt;";
+     int int1 = 10 ;
+    public void doSomething(int c) {
+         string NonXMLString="v2";
+         int int2 = 15 ;
+                                   }
+                           } 
+  </BadCode>
+	<DataName>CAPEC-250(XML Injection)</DataName>
+	<DataValue> 
+	{
+                  "type": "attack-pattern",
+                "spec_version": "2.2",
+                "id": "attack-pattern--0c7b5b88-8ff7-4a4d-aa9d-feb398cd0092",
+                "created": "2023-03-27T14:22:14.760Z",
+                "modified": "2023-03-27T14:22:14.760Z",
+                "name": "XML Injection",
+                "description": "The attacker uses an XML parsing vulnerability in the target application to inject malicious code.",
+                    {%Addition%}
+                "external_references": [
+                    {
+                        "source_name": "CAPEC",
+                        "url": "https://capec.mitre.org/data/definitions/250.html",
+                        "external_id": "CAPEC-250",
+                        "message": "XML Injection detected",
+                        "priority": 1
+                    }
+                ]
+            }
+	</DataValue>
+	<XpathRule>//StringLiteral[contains(@Image,&apos;&lt;?xml&apos;) and (matches(@Image, &apos;[a-zA-Z]+&amp;+[a-zA-Z]&apos;) or matches(@Image, &apos;[a-zA-Z]+>+[a-zA-Z]&apos;)or matches(@Image, &apos;[a-zA-Z]+&lt;+[a-zA-Z]+>&apos;))]</XpathRule>
+	<XpathRuleToShow>//StringLiteral[contains(@Image,&apos;&lt;?xml&apos;) and (matches(@Image, &apos;[a-zA-Z]+&amp;+[a-zA-Z]&apos;) or matches(@Image, &apos;[a-zA-Z]+>+[a-zA-Z]&apos;)or matches(@Image, &apos;[a-zA-Z]+&lt;+[a-zA-Z]+>&apos;))]</XpathRuleToShow>
+	<Description>XML Injection detected description</Description>
+	<Message>XML Injection detected Message</Message>
+	<Name>CAPEC-250(XML Injection)</Name>
+	<Priority>1</Priority>
+  </rule>
+ 
+ 
+ 

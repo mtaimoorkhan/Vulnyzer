@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+   <rule>
+    <DataKey>CWE-480</DataKey>
+    <ClassName>AssignmentOperator_Bad</ClassName>
+	<GoodCode>
+	import java.util.*;
+import java.security.*;
+
+class AssignmentOperator_Good { 
+    bool isValid(int value) {
+        int x=10;
+        if (value==100) {
+        	System.out.println("\n Valid Assignment Operator in If Statement");
+        }
+        while (a == b) {
+            System.out.println("\n Valid Assignment Operator in While Statement");
+      }
+    }
+}
+	</GoodCode>
+	<BadCode> 
+	 import java.util.*;
+import java.security.*;
+
+class AssignmentOperator_Bad { 
+    bool isValid(int value) {
+        int x=10;
+        if (value=100) {
+        	System.out.println("\n Not valid Assignment Operator in If Statement");
+        }
+        while (a = b) {
+            System.out.println("\n Not valid Assignment Operator in While Statement");
+      }
+    }
+}
+	</BadCode>
+	<DataName>CWE-480: Use of Incorrect Operator</DataName>
+	<DataValue> 
+	{
+                     "type": "attack-pattern",
+                    "spec_version": "2.3",
+                    "id": "attack-pattern--8ac90ff3-ecf8-4835-95b8-6aea6a623df7",
+                    "created": "2023-03-27T14:22:14.760Z",
+                    "modified": "2023-03-27T14:22:14.760Z",
+                    "name": "Divide By Zero",
+                    "description": "CWE-480: Use of Incorrect Operator",
+                    {%Addition%}
+                     "external_references": [
+                        {
+                            "source_name": "CWE",
+                            "url": "https://cwe.mitre.org/data/definitions/480.html",
+                            "external_id": "CWE-480",
+                            "message": "CWE-480: Use of Incorrect Operator",
+                            "priority": 1
+                        }
+                    ]
+    }
+	</DataValue>
+	<XpathRule>.//WhileStatement/AssignmentExpression[@Operator='='] | .//IfStatement/AssignmentExpression[@Operator='=']</XpathRule>
+	<XpathRuleToShow>.//WhileStatement/AssignmentExpression[@Operator='='] | .//IfStatement/AssignmentExpression[@Operator='=']</XpathRuleToShow>
+    <Description>Use of Incorrect Operator</Description>
+	<Message>Use of Incorrect Operator</Message>
+	<Name>CWE-480 Use of Incorrect Operator</Name>
+	<Priority>1</Priority>
+  </rule>
+ 
+ 
+ 

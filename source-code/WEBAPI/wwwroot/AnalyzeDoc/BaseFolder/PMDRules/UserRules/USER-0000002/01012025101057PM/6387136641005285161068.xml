@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-1051: Initialization with Hard-Coded Network Resource Configuration Data" id="CWE-1051" ruleid="PRST-0000042" description="The product initializes data using hard-coded values that act as network resource identifiers." source="CWE-1051" link="https://cwe.mitre.org/data/definitions/1051.html" sourceID="CWE-1051" ThreatType="CWE" />
+</threatOwner>

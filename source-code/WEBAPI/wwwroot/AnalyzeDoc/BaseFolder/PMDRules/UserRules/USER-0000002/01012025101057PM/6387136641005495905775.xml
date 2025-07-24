@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-1071: Empty Code Block" id="CWE-1071" ruleid="PRST-0000023" description="The source code contains a block that does not contain any code, i.e., the block is empty." source="CWE-1071" link="https://cwe.mitre.org/data/definitions/1071.html" sourceID="CWE-1071" ThreatType="CWE" />
+</threatOwner>

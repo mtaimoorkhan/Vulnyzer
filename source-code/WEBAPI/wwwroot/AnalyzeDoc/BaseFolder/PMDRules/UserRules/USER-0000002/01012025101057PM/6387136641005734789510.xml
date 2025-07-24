@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-478: Missing Default Case in Multiple Condition Expression" id="CWE-478" ruleid="PRST-0000011" description="The code does not have a default case in an expression with multiple conditions, such as a switch statement" source="CWE-478" link="https://cwe.mitre.org/data/definitions/478.html" sourceID="CWE-478" ThreatType="CWE" />
+</threatOwner>

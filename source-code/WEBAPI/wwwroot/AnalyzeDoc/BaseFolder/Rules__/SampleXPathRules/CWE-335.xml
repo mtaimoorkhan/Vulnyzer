@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+  <rule>
+    <DataKey>CWE-335</DataKey>
+    <ClassName>HelloWorld_Bad</ClassName>
+	<GoodCode>
+	import java.util.*;
+import java.security.*;
+
+class HelloWorld_Good {
+    public double getNumber(long seed){
+        SecureRandom random = new SecureRandom();
+        random.setSeed(seed);
+        double number = random.nextDouble();
+        return number;
+    }
+    public void good(){
+	  HelloWorld_Good hw = new HelloWorld_Good();
+        System.out.println("\n "+hw.getNumber(1L));
+        System.out.println("\n "+hw.getNumber(2L));
+    }
+}
+
+	</GoodCode>
+	<BadCode>
+	 import java.util.*;
+import java.security.*;
+
+class HelloWorld_Bad { 
+    public double getNumber(long seed){
+        SecureRandom random = new SecureRandom();
+        random.setSeed(seed);
+        double number = random.nextDouble();
+        return number;
+    }
+    public void bad(){
+	    HelloWorld_Bad hw = new HelloWorld_Bad();
+        System.out.println("\n "+hw.getNumber(-1L));
+        System.out.println("\n "+hw.getNumber(-2L));
+    } 
+}
+
+	</BadCode>
+	<DataName>Long Integer Violation</DataName>
+	<DataValue>
+	{
+                  "type": "attack-pattern",
+                "spec_version": "2.3",
+                "id": "attack-pattern--8ac90ff3-ecf8-4835-95b8-6aea6a623df7",
+                "created": "2023-03-27T14:22:14.760Z",
+                "modified": "2023-03-27T14:22:14.760Z",
+                "name": "Incorrect Usage of Seeds in Pseudo-Random Number",
+                "description": "Incorrect Usage of Seeds in Pseudo-Random Number.",
+                 {%Addition%}
+                 "external_references": [
+                    {
+                        "source_name": "CWE",
+                        "url": "https://cwe.mitre.org/data/definitions/335.html",
+                        "external_id": "CWE-335",
+                        "message": "Incorrect Usage of Seeds detected",
+                        "priority": 1
+                    }
+                ]
+            }
+	</DataValue>
+	<XpathRule>//ExpressionStatement/MethodCall[@MethodName]/../..//UnaryExpression</XpathRule>
+	<XpathRuleToShow>//ExpressionStatement/MethodCall[@MethodName]/../..//UnaryExpression</XpathRuleToShow>
+	<Description>Long Integer Violation</Description>
+	<Message>Long Integer Violation</Message>
+	<Name>CWE-335 Long Integer Violation</Name>
+	<Priority>1</Priority>
+  </rule>
+ 
+ 
+ 

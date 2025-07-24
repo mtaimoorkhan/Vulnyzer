@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-252: Unchecked Return Value" id="CWE-252" ruleid="PRST-0000017" description="The product does not check the return value from a method or function, which can prevent it from detecting unexpected states and conditions." source="CWE-252" link="https://cwe.mitre.org/data/definitions/252.html" sourceID="CWE-252" ThreatType="CWE" />
+</threatOwner>

@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-404: Improper Resource Shutdown or Release" id="CWE-404" ruleid="PRST-0000043" description="The product does not release or incorrectly releases a resource before it is made available for re-use." source="CWE-404" link="https://cwe.mitre.org/data/definitions/404.html" sourceID="CWE-404" ThreatType="CWE" />
+</threatOwner>

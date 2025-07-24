@@ -1,0 +1,25 @@
+codecov:
+  require_ci_to_pass: yes
+  token: f6ced9cf-737a-4f9d-9598-16777ee3a78b
+
+coverage:
+  precision: 2
+  round: down
+  range: "70...100"
+  status:
+    patch: off
+
+parsers:
+  gcov:
+    branch_detection:
+      conditional: yes
+      loop: yes
+      method: no
+      macro: no
+
+comment:
+  layout: "reach,diff,footer"
+  behavior: default
+  require_changes: true  # Only post the comment if coverage changes
+  require_base: yes        # Must have a base report to post
+  require_head: yes       # Must have a head report to post

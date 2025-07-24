@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<ruleset name="rthfpdm_name" xmlns="http://pmd.sourceforge.net/ruleset/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+  <description>
+              Incorrect Conversion between Numeric Types.
+  </description>
+  <rule name="Rule_CWE-681" language="java" message="Incorrect Conversion between Numeric Types" class="net.sourceforge.pmd.lang.rule.XPathRule">
+    <priority>1</priority>
+    <example><![CDATA[
+        bool isValid(int value) {
+         int bbc = (int) 33457.8;
+    }
+    ]]></example>
+    <example><![CDATA[
+        bool isValid(int value) {
+        int bbc = 33457;
+    }
+    ]]></example>
+    <properties>
+      <property name="xpath">
+        <value>
+                         {%RuleExpression%}
+                    </value>
+      </property>
+    </properties>
+  </rule>
+</ruleset>

@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-606: Unchecked Input for Loop Condition" id="CWE-606" ruleid="PRST-0000020" description="The product does not properly check inputs that are used for loop conditions, potentially leading to a denial of service or other consequences because of excessive looping." source="CWE-606" link="https://cwe.mitre.org/data/definitions/606.html" sourceID="CWE-606" ThreatType="CWE" />
+</threatOwner>

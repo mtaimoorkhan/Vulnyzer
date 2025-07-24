@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-1069: Empty Exception Block" id="CWE-1069" ruleid="PRST-0000022" description="An invokable code block contains an exception handling block that does not contain any code, i.e. is empty." source="CWE-1069" link="https://cwe.mitre.org/data/definitions/1069.html" sourceID="CWE-1069" ThreatType="CWE" />
+</threatOwner>

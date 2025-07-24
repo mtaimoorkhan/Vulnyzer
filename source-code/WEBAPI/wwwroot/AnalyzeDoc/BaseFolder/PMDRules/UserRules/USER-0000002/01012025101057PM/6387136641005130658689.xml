@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-397: Declaration of Throws for Generic Exception - MITRE" id="CWE-397" ruleid="PRST-0000045" description="Throwing overly broad exceptions promotes complex error handling code that is more likely to contain security vulnerabilities." source="CWE-397" link="https://cwe.mitre.org/data/definitions/397.html" sourceID="CWE-397" ThreatType="CWE" />
+</threatOwner>

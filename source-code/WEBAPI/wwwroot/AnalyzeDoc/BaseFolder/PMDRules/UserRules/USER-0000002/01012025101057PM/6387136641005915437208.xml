@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-543: Use of Singleton Pattern Without Synchronization in a Multithreaded Context" id="CWE-543" ruleid="PRST-0000005" description="Use of Singleton Pattern Without Synchronization in a Multithreaded Context" source="CWE-543" link="https://cwe.mitre.org/data/definitions/543.html" sourceID="CWE-543" ThreatType="CWE" />
+</threatOwner>

@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-580: clone() Method Without super.clone()" id="CWE-580" ruleid="PRST-0000002" description="The product contains a clone() method that does not call super.clone() to obtain the new object" source="CWE-580" link="https://cwe.mitre.org/data/definitions/580.html" sourceID="CWE-580" ThreatType="CWE" />
+</threatOwner>

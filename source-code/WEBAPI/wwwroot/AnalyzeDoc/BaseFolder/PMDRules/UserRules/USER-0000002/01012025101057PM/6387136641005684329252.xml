@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-609: Double-Checked Locking" id="CWE-609" ruleid="PRST-0000013" description="The product uses double-checked locking to access a resource without the overhead of explicit synchronization, but the locking is insufficient." source="CWE-609" link="https://cwe.mitre.org/data/definitions/609.html" sourceID="CWE-609" ThreatType="CWE" />
+</threatOwner>

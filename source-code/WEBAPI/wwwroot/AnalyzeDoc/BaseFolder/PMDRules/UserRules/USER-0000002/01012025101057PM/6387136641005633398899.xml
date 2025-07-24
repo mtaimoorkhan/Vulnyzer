@@ -1,0 +1,3 @@
+﻿<threatOwner>
+    <externals name="CWE-570: Expression is Always False" id="CWE-570" ruleid="PRST-0000015" description="The product contains an expression that will always evaluate to false." source="CWE-570" link="https://cwe.mitre.org/data/definitions/570.html" sourceID="CWE-570" ThreatType="CWE" />
+</threatOwner>
